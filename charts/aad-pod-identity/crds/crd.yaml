@@ -5,10 +5,10 @@ metadata:
   annotations:
     "helm.sh/hook": crd-install
   labels:
-    app.kubernetes.io/name: {{ template "aad-pod-identity.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
-    helm.sh/chart: {{ template "aad-pod-identity.chart" . }}
+    app.kubernetes.io/name: aad-pod-identity
+    app.kubernetes.io/instance: aad-pod-identity
+    app.kubernetes.io/managed-by: Helm
+    helm.sh/chart: aad-pod-identity
 spec:
   group: aadpodidentity.k8s.io
   version: v1
@@ -24,10 +24,10 @@ metadata:
   annotations:
     "helm.sh/hook": crd-install
   labels:
-    app.kubernetes.io/name: {{ template "aad-pod-identity.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
-    helm.sh/chart: {{ template "aad-pod-identity.chart" . }}
+    app.kubernetes.io/name: aad-pod-identity
+    app.kubernetes.io/instance: aad-pod-identity
+    app.kubernetes.io/managed-by: Helm
+    helm.sh/chart: aad-pod-identity
 spec:
   group: aadpodidentity.k8s.io
   version: v1
@@ -43,10 +43,10 @@ metadata:
   annotations:
     "helm.sh/hook": crd-install
   labels:
-    app.kubernetes.io/name: {{ template "aad-pod-identity.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
-    helm.sh/chart: {{ template "aad-pod-identity.chart" . }}
+    app.kubernetes.io/name: aad-pod-identity
+    app.kubernetes.io/instance: aad-pod-identity
+    app.kubernetes.io/managed-by: Helm
+    helm.sh/chart: aad-pod-identity
 spec:
   group: aadpodidentity.k8s.io
   version: v1
@@ -63,10 +63,10 @@ metadata:
   annotations:
     "helm.sh/hook": crd-install
   labels:
-    app.kubernetes.io/name: {{ template "aad-pod-identity.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
-    helm.sh/chart: {{ template "aad-pod-identity.chart" . }}
+    app.kubernetes.io/name: aad-pod-identity
+    app.kubernetes.io/instance: aad-pod-identity
+    app.kubernetes.io/managed-by: Helm
+    helm.sh/chart: aad-pod-identity
 spec:
   group: aadpodidentity.k8s.io
   version: v1
